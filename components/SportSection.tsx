@@ -13,7 +13,7 @@ export const SportSection = ({ isLightTheme }: { isLightTheme: boolean }) => {
     const visibleSportData = showAll ? sportData : sportData.slice(0, 4);
 
     return (
-        <div className='mb-10 w-[80%] m-auto'>
+        <div className='mb-10 w-[95%] sm:w-[80%] m-auto'>
             <h1 className="text-2xl font-bold pt-9 border-b-4 border-blue-500 w-fit mb-6">Sports</h1>
             <div className="flex flex-wrap justify-between m-auto">
                 {visibleSportData.map((item) => (
